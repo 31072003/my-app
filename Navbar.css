@@ -1,0 +1,152 @@
+/* Navbar.css */
+body{
+    /* background-color: #333; */
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Set the background color for the navigation bar */
+  padding: 10px 20px;
+  color: #fff; /* Set the text color for the navigation bar */
+}
+
+.logo h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.logo span {
+  color: #ff5722; /* Set a specific color for the "B" and "I" letters */
+}
+
+.mainu-link ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.mainu-link li {
+  margin-right: 20px;
+}
+
+.mainu-link a {
+  text-decoration: none;
+  color: #fff; /* Set the text color for links */
+  transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.mainu-link a:hover {
+  color: #ff5722; /* Change the text color on hover */
+}
+
+.sicial-media ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  
+}
+ul{
+    list-style: none;
+}
+
+.sicial-media li {
+  margin-right: 10px;
+}
+
+
+/* Style the social media icons */
+.facebook,
+.instagram,
+.youtube {
+  font-size: 24px;
+  color: #fff; /* Set the default color for icons */
+  transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+/* Change the icon color on hover */
+.facebook:hover {
+  color: #2664b6; /* Facebook blue color */
+}
+
+.instagram:hover {
+  color: #fa7e1e; /* Instagram pink color */
+}
+
+.youtube:hover {
+  color: #cf1515; /* YouTube red color */
+}
+
+/* Add styles for the hero section */
+.hero-section {
+  text-align: center;
+  /* background-color: #f0f0f0; Set the background color for the hero section */
+  padding: 40px 0;
+  color: #333; /* Set the text color for the hero section */
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin: 0;
+}
+/* Navbar.css */
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 768px) {
+    .main-nav {
+      flex-direction: column; /* Stack items vertically */
+    }
+  
+    .mainu-link ul {
+      margin-top: 20px; /* Add spacing between links in mobile view */
+    }
+  
+    .mainu-link li {
+      margin-bottom: 10px; /* Add spacing between list items in mobile view */
+    }
+  
+    /* Styles for the logo in mobile view */
+    .logo h2 {
+      font-size: 20px;
+    }
+  
+    /* Add a margin to the social media icons for spacing in mobile view */
+    .sicial-media li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Styles for screens larger than 768px */
+  @media (min-width: 769px) {
+    .main-nav {
+      flex-direction: row; /* Restore horizontal layout for larger screens */
+    }
+  
+    .mainu-link ul {
+      margin-top: 0; /* Remove the top margin for links */
+    }
+  
+    .mainu-link li {
+      margin-bottom: 0; /* Remove the margin between list items */
+    }
+  
+    /* Restore the original font size for the logo */
+    .logo h2 {
+      font-size: 24px;
+    }
+  
+    /* Restore the original margin for social media icons */
+    .sicial-media li {
+      margin-right: 10px;
+      margin-bottom: 0;
+    }
+  }
+  

@@ -1,0 +1,135 @@
+
+.home{
+  text-align: center;
+}
+.active{
+color:rgb(204, 90, 56);
+}
+.errr{
+  font-size: 150px;
+  text-align: center;
+  margin-top: 15px;
+}
+/* Navbar.css */
+
+/* Style the <nav> element */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* Style the <ul> element */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Style the <a> elements on hover */
+a:hover {
+  text-decoration: underline;
+}
+
+.info{
+  background-color: darkgray;
+  height: 250px;
+  width: 250px;
+
+}
+/* ToDoList.css */
+
+.main {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.child {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.addIteams {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.addIteams input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: border-color 0.3s;
+}
+
+.addIteams input[type="text"]:focus {
+  border-color: #007BFF;
+}
+
+.add.btn {
+  cursor: pointer;
+  font-size: 20px;
+  color: #007BFF;
+  transition: color 0.3s;
+}
+
+.add.btn:hover {
+  color: #0056b3;
+}
+
+.eachitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.eachitem h3 {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.eachitem .add.btn {
+  color: #dc3545;
+}
+
+.eachitem .add.btn:hover {
+  color: #6d6061;
+}
+
+.showiteams button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.showiteams button:hover {
+  background-color: #0056b3;
+}
+
+.todo-btn{
+  color: #333;
+} 
